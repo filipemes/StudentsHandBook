@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#fff">
+
+<TextView
+    android:id="@+id/text_view_nfc"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentTop="true"
+    android:background="#9e5c47"
+    android:fontFamily="Myriad Pro"
+    android:gravity="center"
+    android:text="@string/title_header_nfc"
+    android:textColor="#ffffff"
+    android:textSize="30sp" />
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/image_nfc"
+        android:layout_below="@id/text_view_nfc"
+        android:layout_width="390dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/nfc_logo" />
+<TextView
+    android:layout_marginTop="20dp"
+    android:textSize="20dp"
+    android:layout_below="@id/image_nfc"
+    android:layout_marginRight="80dp"
+    android:layout_marginLeft="80dp"
+    android:id="@+id/textView_explanation"
+    android:textAlignment="center"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:textColor="#262626"
+    />
+
+<android.support.design.widget.BottomNavigationView
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#9e5c47"
+    app:menu="@menu/bottom_navigation" />
+</RelativeLayout>

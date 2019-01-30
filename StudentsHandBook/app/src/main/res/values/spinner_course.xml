@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="course_array">
+        <item>ES</item>
+        <item>SC</item>
+        <item>SGM</item>
+        <item>SIC</item>
+    </string-array>
+</resources>

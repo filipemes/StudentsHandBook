@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_view_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="#9e5c47"
+        android:fontFamily="Myriad Pro"
+        android:gravity="center"
+        android:text="@string/title_header_home"
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_below="@+id/text_view_main_menu"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:rowCount="3">
+            <!--- Row 1 -->
+            <!-- Column 1 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/nfc_button"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/rounded_corners">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/ic_nfc" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="Myriad Pro"
+                    android:gravity="center"
+                    android:text="@string/menu_item_nfc"
+                    android:textAlignment="center"
+                    android:textColor="#696969"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <!--- Row 1 -->
+            <!-- Column 2 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/schedule_button"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/rounded_corners">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/ic_schedule_large" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="Myriad Pro"
+                    android:gravity="center"
+                    android:text="@string/menu_item_schedule"
+                    android:textAlignment="center"
+                    android:textColor="#696969"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <!--- Row 2 -->
+            <!-- Column 1 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/lost_and_found_button"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/rounded_corners">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/ic_lost_and_found" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="Myriad Pro"
+                    android:gravity="center"
+                    android:text="@string/menu_item_lost_and_found"
+                    android:textAlignment="center"
+                    android:textColor="#696969"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <!--- Row 2 -->
+            <!-- Column 2 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/anomalies_button"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/rounded_corners">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/ic_anomalies" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="Myriad Pro"
+                    android:gravity="center"
+                    android:text="@string/menu_item_anomalies"
+                    android:textAlignment="center"
+                    android:textColor="#696969"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <!--- Row 3 -->
+            <!-- Column 1 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/account_button"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/rounded_corners">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/ic_account_large" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="Myriad Pro"
+                    android:gravity="center"
+                    android:text="@string/menu_item_account"
+                    android:textAlignment="center"
+                    android:textColor="#696969"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <!--- Row 3 -->
+            <!-- Column 2 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/points_of_interest_button"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/rounded_corners">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/ic_pois" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="Myriad Pro"
+                    android:gravity="center"
+                    android:text="@string/menu_item_points_of_interest"
+                    android:textAlignment="center"
+                    android:textColor="#696969"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </GridLayout>
+    </LinearLayout>
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#9e5c47"
+        app:menu="@menu/bottom_navigation" />
+
+</RelativeLayout>
+
+

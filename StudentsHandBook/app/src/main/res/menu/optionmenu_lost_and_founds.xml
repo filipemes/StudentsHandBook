@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/LostAndFoundOptionMenuList"
+        android:title="List Lost And Founds"
+        />
+    <item
+        android:id="@+id/LostAndFoundOptionMenuListByUser"
+        android:title="List My Reports"
+        />
+    <item
+        android:id="@+id/LostAndFoundOptionStopNotifications"
+        android:title="Stop Notifications"
+        />
+</menu>

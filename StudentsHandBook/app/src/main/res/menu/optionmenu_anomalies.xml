@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/anomaliesOptionMenuList"
+        android:title="List Anomalies"
+        />
+    <item
+        android:id="@+id/anomaliesOptionMenuReport"
+        android:title="Report Anomaly"
+        />
+    <item
+        android:id="@+id/anomaliesOptionMenuListByUser"
+        android:title="List My Reports"
+        />
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="class_array">
+        <item>M1A</item>
+        <item>M1B</item>
+        <item>M1C</item>
+    </string-array>
+</resources>

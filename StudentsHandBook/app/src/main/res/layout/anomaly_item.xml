@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:padding="6dip" >
+    <ImageView
+        android:id="@+id/anomalyImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginRight="6dip"
+        android:contentDescription="TODO"
+        android:src="@drawable/ic_poi_image_default" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/anomalyPublisher"
+        android:layout_width="fill_parent"
+        android:layout_height="23dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/anomalyImage"
+        android:text="Publisher:"
+        android:textColor="#000"
+        android:textSize="15dp" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/anomalyImage">
+
+        <TextView
+            android:id="@+id/anomalyDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Description:"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/anomalyDate"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/anomalyDescription"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false"
+            android:gravity="center_vertical"
+            android:text="Date:"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/anomalyStatus"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/anomalyDescription"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="Status:"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/anomalyRoom"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/anomalyStatus"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false"
+            android:layout_marginLeft="2dp"
+            android:gravity="center_vertical"
+            android:text="Room:"
+            android:textColor="#000"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

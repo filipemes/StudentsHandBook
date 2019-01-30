@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "144131056188",
+    "firebase_url": "https://studenthandbook-585d8.firebaseio.com",
+    "project_id": "studenthandbook-585d8",
+    "storage_bucket": "studenthandbook-585d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144131056188:android:74b6af6d5b3fd54c",
+        "android_client_info": {
+          "package_name": "pt.simov.studentshandbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144131056188-3k2ibh9qetu3bd2qm77j2oadp9gq6sqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.simov.studentshandbook",
+            "certificate_hash": "5a7a2c9014cea0fa81099d218a08d75a48b35d1c"
+          }
+        },
+        {
+          "client_id": "144131056188-2qtbfrf6rsksh780b7ua8dgv2enqlh2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.simov.studentshandbook",
+            "certificate_hash": "4461f6ca5e712a4c6a8a6fabf763004da73e1508"
+          }
+        },
+        {
+          "client_id": "144131056188-l61v7uealieacmdf51ku3v0rd0o8nbe2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaCK0DUqqKK6b6PlhNiMm2zggdRrObfQM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144131056188-l61v7uealieacmdf51ku3v0rd0o8nbe2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

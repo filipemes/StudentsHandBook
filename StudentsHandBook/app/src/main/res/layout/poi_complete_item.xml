@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        tools:context=".PoiMapActivity" />
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="10dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/poiDirectionsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="5"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button_bg_round"
+                android:contentDescription="poiDetailsImage"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_poi_directions"
+                android:text="Image" />
+
+            <TextView
+                android:id="@+id/poiDirectionsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/pois_directions"
+                android:textColor="@color/colorPrimary"
+                android:textFontWeight="bold"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="1dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/poiCallBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="5"
+                android:adjustViewBounds="true"
+                android:background="@drawable/button_bg_round"
+                android:contentDescription="poiCallImage"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_poi_call"
+                android:text="Image" />
+
+            <TextView
+                android:id="@+id/poiCallText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/call"
+                android:textColor="@color/colorPrimary"
+                android:textFontWeight="bold"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/poiName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textFontWeight="bold"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/poiAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:text="Address"
+            android:textColor="#000000"
+            android:textFontWeight="bold"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
