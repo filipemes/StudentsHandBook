@@ -30,14 +30,30 @@
 
 ## GUIs
 
+<center>
 ![Login](images/Login.png)
+</center>
+<center>
 ![SignUp](images/SignUp.png)
+</center>
+<center>
 ![Home](images/Home.png)
+</center>
+<center>
 ![Schedule](images/Schedule.png)
+</center>
+<center>
 ![LostAndFounds](images/LostAndFounds.png)
+</center>
+<center>
 ![Anomalies](images/Anomalies.png)
+</center>
+<center>
 ![POIS](images/POIS.png)
+</center>
+<center>
 ![Account](images/Account.png)
+</center>
 
 ## Authors
 
