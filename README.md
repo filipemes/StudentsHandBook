@@ -46,7 +46,7 @@
 
 * **Filipe Mesquita** - [filipemes](https://github.com/filipemes)
 
-* João Pinto
+* **João Pinto**
 
-* Miguel Silva
+* **Miguel Silva**
 
