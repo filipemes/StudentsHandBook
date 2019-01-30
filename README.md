@@ -21,7 +21,7 @@
 - Google Calendar
 - Cloud Messaging from Firebase
 
-## Protocols & Hardware
+## Technologies & Hardware
 
 - NFC
 - Wifi
