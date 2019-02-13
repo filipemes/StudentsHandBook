@@ -30,17 +30,17 @@
 
 ## GUIs
 
-![Login](images/Login.png)
-![SignUp](images/SignUp.png) 
+![Login](screenshots/Login.png)
+![SignUp](screenshots/SignUp.png) 
 
-![Home](images/Home.png)
-![Schedule](images/Schedule.png)
+![Home](screenshots/Home.png)
+![Schedule](screenshots/Schedule.png)
 
-![LostAndFounds](images/LostAndFounds.png)
-![Anomalies](images/Anomalies.png)
+![LostAndFounds](screenshots/LostAndFounds.png)
+![Anomalies](screenshots/Anomalies.png)
 
-![POIS](images/POIS.png)
-![Account](images/Account.png)
+![POIS](screenshots/POIS.png)
+![Account](screenshots/Account.png)
 
 ## Authors
 
