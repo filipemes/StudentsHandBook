@@ -26,7 +26,6 @@
 - NFC
 - Wifi
 - GPS
-- Mobile Camera
 
 ## GUIs
 
