@@ -41,6 +41,8 @@
 ![POIS](screenshots/POIS.png)
 ![Account](screenshots/Account.png)
 
+**Development Date:** January 2019
+
 ## Authors
 
 * **Filipe Mesquita** - [filipemes](https://github.com/filipemes)
