@@ -24,7 +24,6 @@
 ## Technologies
 
 - NFC
-- Wifi
 - GPS
 
 ## GUIs
